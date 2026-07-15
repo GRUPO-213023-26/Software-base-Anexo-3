@@ -1,0 +1,48 @@
+2026-07-13 21:13:30,781 - INFO - Cliente registrado: Cliente [ID: 1] Juan Perez | Doc: 1010101010 | Tel: 3001234567 | Email: juan@correo.com
+2026-07-13 21:13:30,782 - INFO - Intento de registro de cliente procesado (nombre recibido: 'Juan Perez').
+2026-07-13 21:13:30,782 - INFO - Cliente registrado: Cliente [ID: 2] Maria Gomez | Doc: 2020202020 | Tel: 3109876543 | Email: maria@correo.com
+2026-07-13 21:13:30,782 - INFO - Intento de registro de cliente procesado (nombre recibido: 'Maria Gomez').
+2026-07-13 21:13:30,782 - ERROR - No se pudo registrar el cliente 'Carlos Ruiz': El documento 'abc123' no es valido, debe ser numerico.
+2026-07-13 21:13:30,783 - INFO - Intento de registro de cliente procesado (nombre recibido: 'Carlos Ruiz').
+2026-07-13 21:13:30,786 - ERROR - No se pudo registrar el cliente 'Ana Torres': El email 'ana-correo-invalido' no tiene un formato valido.
+2026-07-13 21:13:30,786 - INFO - Intento de registro de cliente procesado (nombre recibido: 'Ana Torres').
+2026-07-13 21:13:30,786 - INFO - Servicio de sala creado: Sala 'Sala de Juntas A': 3 hora(s) a $50,000/hora
+2026-07-13 21:13:30,786 - INFO - Intento de creacion de servicio de sala procesado ('Sala de Juntas A').
+2026-07-13 21:13:30,787 - INFO - Servicio de equipo creado: Equipo 'Videobeam Epson': 2 dia(s) a $30,000/dia + deposito $50,000
+2026-07-13 21:13:30,787 - INFO - Intento de creacion de servicio de equipo procesado ('Videobeam Epson').
+2026-07-13 21:13:30,787 - INFO - Servicio de asesoria creado: Asesoria 'Asesoria en Marketing Digital' con Laura Diaz: 4 hora(s) a $80,000/hora
+2026-07-13 21:13:30,787 - INFO - Intento de creacion de servicio de asesoria procesado ('Asesoria en Marketing Digital').
+2026-07-13 21:13:30,787 - ERROR - No se pudo crear el servicio de sala 'Sala VIP': El precio por hora y las horas deben ser mayores a cero.
+2026-07-13 21:13:30,788 - INFO - Intento de creacion de servicio de sala procesado ('Sala VIP').
+2026-07-13 21:13:30,788 - ERROR - No se pudo crear el servicio de asesoria 'Asesoria Legal': Se debe indicar el nombre del especialista.
+2026-07-13 21:13:30,788 - INFO - Intento de creacion de servicio de asesoria procesado ('Asesoria Legal').
+2026-07-13 21:13:30,788 - INFO - Reserva creada: Reserva [1] Cliente: Juan Perez | Servicio: Sala de Juntas A | Duracion: 3 | Estado: pendiente
+2026-07-13 21:13:30,788 - INFO - Intento de creacion de reserva procesado.
+2026-07-13 21:13:30,788 - INFO - Reserva creada: Reserva [2] Cliente: Maria Gomez | Servicio: Videobeam Epson | Duracion: 2 | Estado: pendiente
+2026-07-13 21:13:30,788 - INFO - Intento de creacion de reserva procesado.
+2026-07-13 21:13:30,788 - ERROR - No se pudo crear la reserva: No existe un cliente con id '99'.
+2026-07-13 21:13:30,788 - INFO - Intento de creacion de reserva procesado.
+2026-07-13 21:13:30,789 - ERROR - No se pudo crear la reserva: No existe un servicio con id '999'.
+2026-07-13 21:13:30,789 - INFO - Intento de creacion de reserva procesado.
+2026-07-13 21:13:30,789 - INFO - Reserva 1 confirmada correctamente.
+2026-07-13 21:13:30,789 - INFO - Intento de confirmacion procesado para la reserva 1.
+2026-07-13 21:13:30,790 - INFO - Reserva 1 procesada. Costo total: $160,650.00
+2026-07-13 21:13:30,790 - INFO - Fin del intento de procesamiento de la reserva 1.
+2026-07-13 21:13:30,790 - ERROR - Reserva 1: No se puede confirmar una reserva en estado 'confirmada'.
+2026-07-13 21:13:30,790 - INFO - Intento de confirmacion procesado para la reserva 1.
+2026-07-13 21:13:30,790 - INFO - Reserva 1 cancelada correctamente.
+2026-07-13 21:13:30,790 - INFO - Intento de cancelacion procesado para la reserva 1.
+2026-07-13 21:13:30,790 - ERROR - Reserva 1: Solo se pueden procesar reservas que ya esten confirmadas.
+2026-07-13 21:13:30,790 - INFO - Fin del intento de procesamiento de la reserva 1.
+2026-07-14 20:10:10,227 - INFO - Cliente registrado: Cliente [ID: 123] CARLOS ANDRES CUERVO | Doc: 1056931007 | Tel: 3103260615 | Email: carlos.quervo@gmail.com
+2026-07-14 20:10:10,230 - INFO - Intento de registro de cliente procesado (nombre recibido: 'CARLOS ANDRES CUERVO').
+2026-07-14 20:10:49,792 - ERROR - No se pudo crear el servicio de asesoria 'CARLOS ANDRES CUERVO': Se debe indicar el nombre del especialista.
+2026-07-14 20:10:49,792 - INFO - Intento de creacion de servicio de asesoria procesado ('CARLOS ANDRES CUERVO').
+2026-07-14 20:10:58,604 - INFO - Servicio de asesoria creado: Asesoria 'CARLOS ANDRES CUERVO' con CARLOS: 5.0 hora(s) a $10,000/hora
+2026-07-14 20:10:58,604 - INFO - Intento de creacion de servicio de asesoria procesado ('CARLOS ANDRES CUERVO').
+2026-07-14 20:11:21,610 - INFO - Reserva creada: Reserva [1] Cliente: CARLOS ANDRES CUERVO | Servicio: CARLOS ANDRES CUERVO | Duracion: 5.0 | Estado: pendiente
+2026-07-14 20:11:21,610 - INFO - Intento de creacion de reserva procesado.
+2026-07-14 20:11:28,923 - INFO - Reserva 1 confirmada correctamente.
+2026-07-14 20:11:28,924 - INFO - Intento de confirmacion procesado para la reserva 1.
+2026-07-14 20:11:34,547 - INFO - Reserva 1 procesada. Costo total: $50,000.00
+2026-07-14 20:11:34,547 - INFO - Fin del intento de procesamiento de la reserva 1.
